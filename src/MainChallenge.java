@@ -21,4 +21,10 @@ public class MainChallenge {
 
         return finalScore;
     }
+
+    public static void displayHighScorePosition(String playerName, int playerPosition) {
+
+        System.out.println(playerName + " achieved position " + playerPosition + " on the high score list");
+    }
+
 }
